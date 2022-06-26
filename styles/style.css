@@ -1,0 +1,82 @@
+/* --------- Google font cdn link ------------*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+/* ------------------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3%;
+  grid-column-gap: 40px;
+  grid-row-gap: 50px;
+}
+.card-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 21px;
+  background: linear-gradient(
+    90deg,
+    hsla(346, 100%, 55%, 1) 0%,
+    hsla(194, 88%, 61%, 1) 100%
+  );
+  color: #fff;
+  height: 260px;
+  weight: 260px;
+  border-radius: 10px;
+}
+.card {
+  height: 250px;
+  weight: 250px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.card h3,
+p,
+a {
+  margin: 20px 0 10px 22px;
+}
+.card p {
+  margin-bottom: 30px;
+  color: rgb(70, 64, 64);
+  font-weight: 400;
+  margin-right: 15px;
+  margin-left: 22px;
+  line-height: 1.5;
+  font-size: 15px;
+}
+.card a {
+  text-decoration: none;
+  color: #ff194f;
+  font-weight: 500;
+}
+.fa-brands {
+  font-size: 25px;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: linear-gradient(
+    45deg,
+    hsla(346, 100%, 55%, 1) 0%,
+    hsla(194, 88%, 61%, 1) 100%,
+    hsla(267, 22%, 58%, 1) 100%
+  );
+  color: #fff;
+  margin-top: -4%;
+  align-items: center;
+  margin-left: 30px;
+  text-align: center;
+}
+.fa-html5,
+.fa-css3-alt,
+.fa-js,
+.fa-react,
+.fa-angular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
